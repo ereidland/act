@@ -1,0 +1,37 @@
+body
+{
+    font-family: Courier New;
+    font-size: 32px;
+    font-style: bold;
+    color: white;
+    /*text-shadow: 1px 1px black, -1px 1px black, -1px -1px black, 1px -1px black*/
+    text-shadow: 0px 0px 4px black;
+}
+
+.node
+{
+    border: 2px solid #FF8800;
+    border-radius: 8px;
+    position: absolute;
+    padding: 8px;
+    background-color: #848484;
+    display: inline-block;
+}
+
+.can_highlight {}
+
+.highlight
+{
+    border: 8px solid #FFFF00;
+}
+
+.editor
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920;
+    height: 1080;
+    border: 1px solid black;
+    background-color: #424242;
+}
