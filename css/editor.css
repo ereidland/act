@@ -1,7 +1,7 @@
 body
 {
-    font-family: Courier New;
-    font-size: 32px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
     font-style: bold;
     color: white;
     /*text-shadow: 1px 1px black, -1px 1px black, -1px -1px black, 1px -1px black*/
@@ -12,10 +12,29 @@ body
 {
     border: 2px solid #FF8800;
     border-radius: 8px;
-    position: absolute;
     padding: 8px;
     background-color: #848484;
     display: inline-block;
+}
+
+.node_container
+{
+    border: 2px solid #AA8822;
+    border-radius: 8px;
+    padding-bottom: 8px;
+    background-color: #848484;
+    display: inline-block;
+}
+
+.toolbox
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #707070;
+    background-color: #646464;
+    width: 126px;
+    height: 100%;
 }
 
 .can_highlight {}
@@ -28,10 +47,11 @@ body
 .editor
 {
     position: absolute;
-    left: 0;
+    left: 128px;
     top: 0;
     width: 1920;
     height: 1080;
     border: 1px solid black;
     background-color: #424242;
+    display: inline-block;
 }
