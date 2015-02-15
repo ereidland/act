@@ -88,6 +88,7 @@ function NodeElement(div, type, id)
     var _div = div;
     var _innerDiv;
     var _type = type;
+    var _parent;
 
     if (_.isString(_type))
         _type = NodeTypes.GetNodeType(_type);
@@ -133,7 +134,7 @@ function NodeElement(div, type, id)
     {
         _div.remove();
     });
-    
+
     _div.append("<br>");
 
     NodeRegistry.RegisterNode(this);
