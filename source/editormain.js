@@ -133,9 +133,8 @@ function NodeElement(div, type, id)
     {
         _div.remove();
     });
-
+    
     _div.append("<br>");
-    _div.append(addButton);
 
     NodeRegistry.RegisterNode(this);
 }
